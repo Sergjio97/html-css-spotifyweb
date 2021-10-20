@@ -1,0 +1,29 @@
+/* *** common *** */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* *** inizio main *** */
+
+/* *** / main *** */
+
+/* *** inizio footer *** */
+
+/* *** / footer *** */
+
+/* *** debug ***  */
+
+.debug main {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-color: darkblue;
+}
+
+.debug footer {
+    width: 100%;
+    height: 100px;
+    background-color: darkred;
+} 
