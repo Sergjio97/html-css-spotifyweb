@@ -8,6 +8,30 @@
 
 /* *** inizio main *** */
 
+.col-sn {
+    width: 15%;
+    height: 100%;
+    background-color: yellow;
+}
+
+.col-dx {
+    width: 85%;
+    height: 100%;
+    background-color: lime;
+}
+
+.top-box {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+.bottom-box {
+    width: 100%;
+    height: calc(100% - 80px);
+    background-color: blueviolet;
+}
+
 /* *** / main *** */
 
 /* *** inizio footer *** */
@@ -18,12 +42,13 @@
 
 .debug main {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 80px);
     background-color: darkblue;
+    display: flex;
 }
 
 .debug footer {
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: darkred;
 } 
