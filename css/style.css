@@ -229,7 +229,79 @@ footer {
     background-color: #282828;
     position: fixed;
     z-index: 999;
+    display: flex;
+    justify-content: space-between;
 }
+
+/* *** inizio footer left *** */
+
+footer img {
+    width: 40px;
+    margin-left: 10px;
+}
+
+footer h5 {
+    font-size: 12px;
+    color: white;
+    margin-left: 10px;
+}
+
+footer span {
+    font-size: 11px;
+    color: #a3a3a3;
+    margin-left: 10px;
+}
+
+footer #cuore {
+    margin-left: 30px;
+    margin-right: 10px;
+    color: #a3a3a3;
+}
+
+footer #file {
+    color: #a3a3a3;
+}
+
+.footer-left {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+/* *** / footer left *** */
+
+/* *** inizio footer center *** */
+
+.footer-center {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-center i {
+    margin-top: 10px;
+    margin-right: 20px;
+    color: #a3a3a3;
+    
+}
+
+/* *** / footer center *** */
+
+/* *** inizio footer right *** */
+
+.footer-right {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-right i {
+    margin-right: 20px;
+    color: #a3a3a3;
+}
+
+/* *** / footer right *** */
 
 /* *** / footer *** */
 
