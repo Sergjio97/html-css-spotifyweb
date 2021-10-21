@@ -12,13 +12,19 @@ body {
 
 /* *** inizio main *** */
 
+main {
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-color: darkblue;
+    display: flex;
+}
+
 /* *** inizio col-sn *** */
 
 .col-sn {
     width: 15%;
     background-color: #000000;
     font-size: 11px;
-    overflow-y: auto;
 }
 
 #logo {
@@ -57,6 +63,7 @@ body {
     overflow-y: auto;
     padding-bottom: 150px;
     font-size: 11px;
+    overflow-y: auto;
 }
 
 .col-sn h6 {
@@ -100,7 +107,6 @@ body {
     border-top: 1px solid grey;
 }
 
-
 /* *** / col-sn *** */
 
 /* *** inizio col-dx *** */
@@ -110,27 +116,40 @@ body {
     overflow-y: auto;
 }
 
+/* *** inizio top-box *** */
+
 .top-box {
     width: 100%;
     height: 80px;
     background-color: #080b12;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
+
+.top-box #upgrade {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-right: 5px;
+    border: 1px solid white;
+    border-radius: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 11px;
+}
+
+/* *** / top-box *** */
 
 .bottom-box {
     width: 100%;
     background-color: #141922;
+    overflow-y: auto;
 }
 
 /* *** / col-dx *** */
 
 /* *** / main *** */
-
-main {
-    width: 100%;
-    height: calc(100vh - 80px);
-    background-color: darkblue;
-    display: flex;
-}
 
 /* *** inizio footer *** */
 
