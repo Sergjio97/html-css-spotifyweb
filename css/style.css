@@ -101,8 +101,6 @@ body {
 }
 
 
-
-
 /* *** / col-sn *** */
 
 /* *** inizio col-dx *** */
@@ -175,6 +173,17 @@ footer {
 
     .col-dx {
         width: calc(100% - 30px);
+    }
+
+    /* *** display none *** */
+
+    #logo,
+    #nav-top, 
+    h6, 
+    #playlist, 
+    #installa, 
+    #linea-divisoria {
+        display: none;
     }
 }
 
